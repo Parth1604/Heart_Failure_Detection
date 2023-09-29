@@ -7,7 +7,7 @@
 + **Detecting and Handling Outliers:** A dedicated section to identify outliers that could skew predictions and address them to enhance the accuracy of the predictive models.
 + **Designing Algorithms:** Implementation and evaluation of various algorithms to identify the best performing model for predicting heart failure.
 
-## Library used: 
+# Library used: 
 1. **time**: A module that provides various time-related functions. It's commonly used for benchmarking or measuring the execution time of certain code blocks.
    
 2. **pandas (as pd)**: A popular data manipulation and analysis library in Python. It provides data structures like DataFrames and Series for handling and analyzing structured data.
