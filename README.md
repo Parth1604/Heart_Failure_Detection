@@ -2,40 +2,26 @@
 
 **Objective:** Predict the likelihood of heart failure using various features related to a patient's health.
 
-**Dataset :** 
-
-Of course! Here are brief descriptions for each of the dataset variables:
-
-Age: Represents the age of the individual.
-
-Sex: Indicates the gender of the individual, typically denoted as male or female.
-
-ChestPainType: Describes the type or nature of chest pain experienced by the individual. This could refer to specific medical classifications of chest pain.
-
-RestingBP: Represents the resting blood pressure of the individual, typically measured in millimeters of mercury (mmHg). It refers to the blood pressure when the individual is at rest.
-
-Cholesterol: Indicates the cholesterol level in the individual's blood, usually measured in milligrams per deciliter (mg/dL).
-
-FastingBS: Stands for fasting blood sugar. It indicates whether the individual's fasting blood sugar level is above a certain threshold, typically used to assess the risk or presence of diabetes.
-
-RestingECG: Represents the results of an electrocardiogram (ECG or EKG) test when the individual is at rest. It's a test that measures the electrical activity of the heart.
-
-MaxHR: Denotes the maximum heart rate achieved by the individual, typically during a stress test or physical exercise.
-
-ExerciseAngina: Indicates whether the individual experienced angina (chest pain) during exercise or physical activity.
-
-Oldpeak: Refers to the depression (or difference) of the ST segment in an ECG, which can be indicative of heart conditions when compared to the segment at rest.
-
-ST_Slope: Describes the slope of the ST segment in an ECG. The ST segment slope can be indicative of specific heart conditions. There are typically three types: upsloping, flat, and downsloping.
-
-HeartDisea: Likely a binary variable indicating the presence (1) or absence (0) of heart disease in the individual.
-
-
-
 # Project Structure:
 + **Exploratory Data Analysis (EDA):** A comprehensive analysis of the dataset to gain insights, understand data distribution, and identify key patterns.
 + **Detecting and Handling Outliers:** A dedicated section to identify outliers that could skew predictions and address them to enhance the accuracy of the predictive models.
 + **Designing Algorithms:** Implementation and evaluation of various algorithms to identify the best performing model for predicting heart failure.
+
+# **Dataset :** 
+Here are brief descriptions for each of the dataset variables:
+
+Age: Represents the age of the individual.
++ Sex: Indicates the gender of the individual, typically denoted as male or female.
++ ChestPainType: Describes the type or nature of chest pain experienced by the individual. This could refer to specific medical classifications of chest pain.
++ RestingBP: Represents the resting blood pressure of the individual, typically measured in millimeters of mercury (mmHg). It refers to the blood pressure when the individual is at rest.
++ Cholesterol: Indicates the cholesterol level in the individual's blood, usually measured in milligrams per deciliter (mg/dL).
++ FastingBS: Stands for fasting blood sugar. It indicates whether the individual's fasting blood sugar level is above a certain threshold, typically used to assess the risk or presence of diabetes.
++ RestingECG: Represents the results of an electrocardiogram (ECG or EKG) test when the individual is at rest. It's a test that measures the electrical activity of the heart.
++ MaxHR: Denotes the maximum heart rate achieved by the individual, typically during a stress test or physical exercise.
++ ExerciseAngina: Indicates whether the individual experienced angina (chest pain) during exercise or physical activity.
++ Oldpeak: Refers to the depression (or difference) of the ST segment in an ECG, which can be indicative of heart conditions when compared to the segment at rest.
++ ST_Slope: Describes the slope of the ST segment in an ECG. The ST segment slope can be indicative of specific heart conditions. There are typically three types: upsloping, flat, and downsloping.
++ HeartDisease: Likely a binary variable indicating the presence (1) or absence (0) of heart disease in the individual.
 
 # Library used: 
 1. **time**: A module that provides various time-related functions. It's commonly used for benchmarking or measuring the execution time of certain code blocks.
